@@ -1,4 +1,10 @@
-#include <BAT/BCLog.h>
+//
+//  runBAT_GraphFit.cxx
+//  BAT_GraphFit
+//
+//  Created by Toby Dixon on 2022/12/1.
+//
+
 // ***************************************************************
 // This file was created using the bat-project script
 // for project BAT_GraphFit.
@@ -6,12 +12,15 @@
 // BAT can be downloaded from http://mpp.mpg.de/bat
 // ***************************************************************
 
+#include <iostream>
+
 #include <BAT/BCLog.h>
 
 #include "BAT_GraphFit.h"
 #include "TFile.h"
 #include "TCanvas.h"
-int main()
+
+int main(int argc, const char* argv[])
 {
     // open log file
     BCLog::OpenLog("log.txt", BCLog::detail, BCLog::detail);

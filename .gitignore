@@ -3,3 +3,8 @@
 *.pdf
 *.d
 *.root
+
+# Other
+.DS_Store
+BAT_GraphFit.xcodeproj/*
+BAT_GraphFit.entitlements
